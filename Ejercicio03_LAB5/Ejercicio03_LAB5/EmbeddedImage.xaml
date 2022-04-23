@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local2="clr-namespace:Ejercicio03_LAB5" 
+             x:Class="Ejercicio03_LAB5.EmbeddedImage">
+    <ContentPage.Content>
+        <StackLayout x:Name="stack">
+            <Label Text="Imagenes Incorporadas!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="{local2:ImageResource
+                Ejercicio03_LAB5.repartidor.png}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
